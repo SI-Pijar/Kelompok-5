@@ -77,7 +77,7 @@ void iniKuis(){
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
     if(jawaban ==' '){
-      cout<<"keren juga lu bisa sampe sini, coba last nya 99% bukan manusia gagal"<<endl;
+      cout<<"benul"<<endl;
       nilai++
     }else{
       cout<<"............., jawaban yang bener itu....."<<endl;
