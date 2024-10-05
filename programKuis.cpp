@@ -15,7 +15,7 @@ void iniKuis(){
   cin>>jawaban;  
     if(jawaban ==' '){
       cout<<"Soal pertama EZ wajar bener."<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<"Jiahahahaha jawaban lu salah bro, yang bener....."<<endl;
     }
@@ -31,7 +31,7 @@ void iniKuis(){
   cin>>jawaban;
     if(jawaban ==' '){
       cout<<"Lumayanlah."<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<"Masih salah? astagaa, yang bener itu....."<<endl;
     }
@@ -47,7 +47,7 @@ void iniKuis(){
   cin>>jawaban;
     if(jawaban ==' '){
       cout<<"Widih! masih bener ternyata, kita naikin lah ya level soalnya."<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<"Bro yakin kamu sehat?, jawaban yang bener itu....."<<endl;
     }
@@ -63,7 +63,7 @@ void iniKuis(){
   cin>>jawaban;
     if(jawaban ==' '){
       cout<<"Jangan seneng dulu, tim kita salah aja malah nuruin level soal, liat aja soal berikutnya."<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<"Dahlah bingung mau ngomong apa, jawaban yang bener itu....."<<endl;
     }
@@ -78,7 +78,7 @@ void iniKuis(){
   cin>>jawaban;
     if(jawaban ==' '){
       cout<<"benul"<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<"............., jawaban yang bener itu....."<<endl;
     }
