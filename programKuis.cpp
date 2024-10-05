@@ -1,5 +1,4 @@
 #include <iosteram>
-
 using namespace std;
 
 void iniKuis(){
