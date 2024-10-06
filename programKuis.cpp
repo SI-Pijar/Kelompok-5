@@ -169,21 +169,22 @@ void iniKuis(){
     }
    cout<<endl;
   
-  cout<<"soal 10:  "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+  cout<<"soal 10: Apa Yang dilakukan Mahasiswa Ilmu Komputer saat Tugas Mendekati Deadline? "<<endl;
+  cout<<"1.Mengerjakan Dengan Santuy Karna sudah pasti selesai "<<endl;
+  cout<<"2.Haluin karakter 2D "<<endl;
+  cout<<"3.Ngatur playlist lagu motivasi "<<endl;
+  cout<<"4.Mengabaikan tugas dan Mabar ML sampai pagi "<<endl;
+  cout<<"5.Lariiiiiiiiii "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' '){
-      cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
+    if(jawaban ==' 1'){
+      cout<<"BAGOSSS Ngerjain Tugas Mepet Deadline kocag."<<endl;
       nilai++;
     }else{
-      cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
+      cout<<"Sebenernya Jawabanmu Bener,tapi Salah."<<endl;
     }
  }
+  cout << "Skor Anda " << nilai << "dari 10." << endl;
 
-
+  return 0;
 }
