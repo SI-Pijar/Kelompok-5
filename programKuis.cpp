@@ -13,7 +13,7 @@ void iniKuis(){
   cout<<"5.Universitas Lama Bagi Almet "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;  
-    if(jawaban ==' 5'){
+    if(jawaban =='5'){
       cout<<"GG njirr bisa tau."<<endl;
       nilai++;
     }else{
@@ -29,7 +29,7 @@ void iniKuis(){
   cout<<"5. FT"<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' 3'){
+    if(jawaban =='3'){
       cout<<"Soal terlalu gampang"<<endl;
       nilai++;
     }else{
@@ -45,7 +45,7 @@ void iniKuis(){
   cout<<"5. Peternakan "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' 4'){
+    if(jawaban =='4'){
       cout<<"Widih! masih bener ternyata, kita naikin lah ya level soalnya."<<endl;
       nilai++;
     }else{
@@ -61,7 +61,7 @@ void iniKuis(){
   cout<<"5.Ma'am Ari Nurweni "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' 3'){
+    if(jawaban =='3'){
       cout<<"Kalo salah bukan anak ILMU KOMPUTER lu!!."<<endl;
       nilai++;
     }else{
@@ -83,6 +83,7 @@ void iniKuis(){
       cout<<" Masa gatau, Yang Bener tu Bapak Bambang BOS..."<<endl;
     }
   cout<<endl;
+  
   cout<<"soal 6: Apa yang membuat mahasiswa ilmu komputer begadang? "<<endl;
   cout<<"1. nongki "<<endl;
   cout<<"2. ngoding "<<endl;
@@ -91,39 +92,41 @@ void iniKuis(){
   cout<<"5. ngedate"<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban =='2 '){
+    if(jawaban =='2'){
       cout<<"benull, wah anak ilkom banget nihh..<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<" bukan jiwa ilkom ni pasti, anak ilkom begadang nya ngoding broo"<<endl;
     }
     cout<<endl;
-  cout<<"soal 7: "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+  
+  cout<<"soal 7:Jika mahasiswa Ilmu Komputer ditanya tentang masa depan, mereka akan menjawab: "<<endl;
+  cout<<"1.Pasti cerah "<<endl;
+  cout<<"2.Tergantung Koneksi internet "<<endl;
+  cout<<"3.Akan penuh dengan bug "<<endl;
+  cout<<"4.Saya belum compile masa depan saya! "<<endl;
+  cout<<"5.Masuk Isekai "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' '){
+    if(jawaban =='1'){
       cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
     }
   cout<<endl;
-  cout<<"soal 8: "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+  
+  cout<<"soal 8:Jika ditanya tentang cinta, mahasiswa Ilmu Komputer akan menjawab "<<endl;
+  cout<<"1.Error 404: Cinta Tidak Ditemukan "<<endl;
+  cout<<"2.Saya hanya mencari ‘compatible’ "<<endl;
+  cout<<"3.eperti program yang perlu di-debug! "<<endl;
+  cout<<"4.Cinta itu seperti variabel, harus diinisialisasi! "<<endl;
+  cout<<"5.Cinta itu terlalu kompleks, mending coding "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
     if(jawaban ==' '){
       cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
     }
@@ -138,11 +141,12 @@ void iniKuis(){
   cin>>jawaban;
     if(jawaban ==' '){
       cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
     }
    cout<<endl;
+  
   cout<<"soal 10: "<<endl;
   cout<<"1. "<<endl;
   cout<<"2. "<<endl;
@@ -153,7 +157,7 @@ void iniKuis(){
   cin>>jawaban;
     if(jawaban ==' '){
       cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
-      nilai++
+      nilai++;
     }else{
       cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
     }
