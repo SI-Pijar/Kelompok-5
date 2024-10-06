@@ -10,14 +10,14 @@ void iniKuis(){
   cout<<"2.Universitas Menyala "<<endl;
   cout<<"3.Universitas Los Angeles "<<endl;
   cout<<"4.Universitas Lampung "<<endl;
-  cout<<"5.U "<<endl;
+  cout<<"5.Universitas Lama Bagi Almet "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;  
-    if(jawaban ==' '){
+    if(jawaban =='4'){
       cout<<"Soal pertama EZ wajar bener."<<endl;
       nilai++;
     }else{
-      cout<<"Jiahahahaha jawaban lu salah bro, yang bener....."<<endl;
+      cout<<"Jiahahahaha jawaban lu salah der, yang bener tu 4 kocag "<<endl;
     }
   cout<<endl;
     
