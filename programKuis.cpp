@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-  
 void iniKuis(){
   char jawaban;
   int nilai = 0;
