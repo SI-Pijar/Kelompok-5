@@ -83,19 +83,19 @@ void iniKuis(){
       cout<<" Masa gatau, Yang Bener tu Bapak Bambang BOS..."<<endl;
     }
   cout<<endl;
-  cout<<"soal 6: "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+  cout<<"soal 6: Apa yang membuat mahasiswa ilmu komputer begadang? "<<endl;
+  cout<<"1. nongki "<<endl;
+  cout<<"2. ngoding "<<endl;
+  cout<<"3. mabar ml"<<endl;
+  cout<<"4. nonton"<<endl;
+  cout<<"5. ngedate"<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' '){
-      cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
+    if(jawaban =='2 '){
+      cout<<"benull, wah anak ilkom banget nihh..<<endl;
       nilai++
     }else{
-      cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
+      cout<<" bukan jiwa ilkom ni pasti, anak ilkom begadang nya ngoding broo"<<endl;
     }
     cout<<endl;
   cout<<"soal 7: "<<endl;
