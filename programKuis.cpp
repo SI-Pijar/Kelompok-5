@@ -87,7 +87,7 @@ cout<<endl;
       cout<<"Cihuy benul"<<endl;
       nilai++;
     }else{
-      cout<<" Masa gatau, Yang Bener tu Bapak Bambang BOS..."<<endl;
+      cout<<"Masa gatau, Yang Bener tu Bapak Bambang BOS..."<<endl;
     }
   cout<<endl;
   
@@ -104,7 +104,7 @@ cout<<endl;
       cout<<"benull, wah anak ilkom banget nihh.."<<endl;
       nilai++;
     }else{
-      cout<<" bukan jiwa ilkom ni pasti, anak ilkom begadang nya ngoding broo"<<endl;
+      cout<<"Bukan jiwa ilkom ni pasti, anak ilkom begadang nya ngoding broo"<<endl;
     }
     cout<<endl;
   
@@ -138,7 +138,7 @@ cout<<endl;
       cout<<"Kelazzzzz,Pasti lu nolep kann WKWKWKWWKK."<<endl;
       nilai++;
     }else{
-      cout<<"yahhh lu mah bukan anak Ilmu Komputer BGT."<<endl;
+      cout<<"Yahhh lu mah bukan anak Ilmu Komputer BGT."<<endl;
     }
   cout<<endl;
   cout<<"soal 9: Apa yang kamu harapkan setelah belajar Ilmu Komputer? "<<endl;
@@ -180,9 +180,9 @@ int main (){
 do{
   cout<<endl;
 cout<<" ======menu quiz====="<<endl;
-cout<<"1. mulai quiz"<<endl;
-cout<<"2. selasai"<<endl;
-cout<<"pilih opsi 1/2: ";
+cout<<"1. MULAI QUIZZ"<<endl;
+cout<<"2. SELESAI"<<endl;
+cout<<"PILIH OPSI 1/2: ";
 cin>>pilihan;
 
 switch (pilihan) {
