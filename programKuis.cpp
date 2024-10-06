@@ -109,26 +109,26 @@ void iniKuis(){
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
     if(jawaban =='1'){
-      cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
+      cout<<"Bener COOIII,Dengan Lantang meneriakan PASTI CERAHH."<<endl;
       nilai++;
     }else{
-      cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
+      cout<<"Ah lu mah gimana sih,Masa depan Anak ILKOMP itu pasti CERAHH MENYALAAA!!."<<endl;
     }
   cout<<endl;
   
   cout<<"soal 8:Jika ditanya tentang cinta, mahasiswa Ilmu Komputer akan menjawab "<<endl;
   cout<<"1.Error 404: Cinta Tidak Ditemukan "<<endl;
   cout<<"2.Saya hanya mencari ‘compatible’ "<<endl;
-  cout<<"3.eperti program yang perlu di-debug! "<<endl;
+  cout<<"3.cout <<'ya tuhan,Satukan aku dengan dia'<<end1; "<<endl;
   cout<<"4.Cinta itu seperti variabel, harus diinisialisasi! "<<endl;
   cout<<"5.Cinta itu terlalu kompleks, mending coding "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' '){
-      cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
+    if(jawaban ==' 5'){
+      cout<<"Kelazzzzz,Pasti lu nolep kann WKWKWKWWKK."<<endl;
       nilai++;
     }else{
-      cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
+      cout<<"yahhh lu mah bukan anak Ilmu Komputer BGT."<<endl;
     }
   cout<<endl;
   cout<<"soal 9: "<<endl;
