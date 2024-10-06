@@ -5,12 +5,12 @@ void iniKuis(){
   char jawaban;
   int nilai = 0;
   
-  cout<<"soal 1: "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+  cout<<"soal 1: Apa kepanjangan dari UNILA "<<endl;
+  cout<<"1.Universitas Lambung "<<endl;
+  cout<<"2.Universitas Menyala "<<endl;
+  cout<<"3.Universitas Los Angeles "<<endl;
+  cout<<"4.Universitas Lampung "<<endl;
+  cout<<"5.U "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;  
     if(jawaban ==' '){
@@ -21,7 +21,7 @@ void iniKuis(){
     }
   cout<<endl;
     
-  cout<<"soal 2: "<<endl;
+  cout<<"soal 2:  "<<endl;
   cout<<"1. "<<endl;
   cout<<"2. "<<endl;
   cout<<"3. "<<endl;
@@ -97,5 +97,64 @@ void iniKuis(){
     }else{
       cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
     }
-  cout<<"Nilai Anda: "<<nilai<<" dari 6."<<endl;
+    cout<<endl;
+  cout<<"soal 7: "<<endl;
+  cout<<"1. "<<endl;
+  cout<<"2. "<<endl;
+  cout<<"3. "<<endl;
+  cout<<"4. "<<endl;
+  cout<<"5. "<<endl;
+  cout<<"pilih jawaban (1/2/3/4/5): ";
+  cin>>jawaban;
+    if(jawaban ==' '){
+      cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
+      nilai++
+    }else{
+      cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
+    }
+  cout<<endl;
+  cout<<"soal 8: "<<endl;
+  cout<<"1. "<<endl;
+  cout<<"2. "<<endl;
+  cout<<"3. "<<endl;
+  cout<<"4. "<<endl;
+  cout<<"5. "<<endl;
+  cout<<"pilih jawaban (1/2/3/4/5): ";
+  cin>>jawaban;
+    if(jawaban ==' '){
+      cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
+      nilai++
+    }else{
+      cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
+    }
+  cout<<endl;
+  cout<<"soal 9: "<<endl;
+  cout<<"1. "<<endl;
+  cout<<"2. "<<endl;
+  cout<<"3. "<<endl;
+  cout<<"4. "<<endl;
+  cout<<"5. "<<endl;
+  cout<<"pilih jawaban (1/2/3/4/5): ";
+  cin>>jawaban;
+    if(jawaban ==' '){
+      cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
+      nilai++
+    }else{
+      cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
+    }
+   cout<<endl;
+  cout<<"soal 10: "<<endl;
+  cout<<"1. "<<endl;
+  cout<<"2. "<<endl;
+  cout<<"3. "<<endl;
+  cout<<"4. "<<endl;
+  cout<<"5. "<<endl;
+  cout<<"pilih jawaban (1/2/3/4/5): ";
+  cin>>jawaban;
+    if(jawaban ==' '){
+      cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
+      nilai++
+    }else{
+      cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
+    }
  }
