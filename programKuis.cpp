@@ -21,35 +21,35 @@ void iniKuis(){
     }
   cout<<endl;
     
-  cout<<"soal 2:  "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+  cout<<"soal 2: Ilmu komputer termasuk dalam fakultas ? "<<endl;
+  cout<<"1. HUKUM "<<endl;
+  cout<<"2. FEB"<<endl;
+  cout<<"3. FMIPA"<<endl;
+  cout<<"4. FKIP"<<endl;
+  cout<<"5. FT"<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' '){
-      cout<<"Lumayanlah."<<endl;
+    if(jawaban ==' 3'){
+      cout<<"Soal terlalu gampang"<<endl;
       nilai++;
     }else{
-      cout<<"Masih salah? astagaa, yang bener itu....."<<endl;
+      cout<<"Masih salah? astagaa, yang bener itu FMIPA"<<endl;
     }
   cout<<endl;
   
-  cout<<"soal 3: "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+  cout<<"soal 3: Dibawah ini yang termasuk program studi di jurusan Ilmu komputer adalah "<<endl;
+  cout<<"1. Matematika "<<endl;
+  cout<<"2. Farmasi "<<endl;
+  cout<<"3. pendidikan teknologi informasi "<<endl;
+  cout<<"4. Sistem Informasi"<<endl;
+  cout<<"5. Peternakan "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' '){
+    if(jawaban ==' 4'){
       cout<<"Widih! masih bener ternyata, kita naikin lah ya level soalnya."<<endl;
       nilai++;
     }else{
-      cout<<"Bro yakin kamu sehat?, jawaban yang bener itu....."<<endl;
+      cout<<"Bro yakin kamu sehat?, jawaban yang bener itu sistem informasi bjir"<<endl;
     }
   cout<<endl;
   
