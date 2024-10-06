@@ -13,7 +13,8 @@ void iniKuis(){
   cout<<"4.Universitas Lampung "<<endl;
   cout<<"5.Universitas Lama Bagi Almet "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
-  cin>>jawaban;  
+  cin>>jawaban;
+  cout<<endl;
     if(jawaban =='5'){
       cout<<"GG njirr bisa tau."<<endl;
       nilai++;
@@ -30,6 +31,7 @@ void iniKuis(){
   cout<<"5.FT"<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
+cout<<endl;
     if(jawaban =='3'){
       cout<<"Soal terlalu gampang"<<endl;
       nilai++;
@@ -46,6 +48,7 @@ void iniKuis(){
   cout<<"5.Peternakan "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
+cout<<endl;
     if(jawaban =='4'){
       cout<<"Widih! masih bener ternyata, kita naikin lah ya level soalnya."<<endl;
       nilai++;
@@ -62,6 +65,7 @@ void iniKuis(){
   cout<<"5.Ma'am Ari Nurweni "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
+cout<<endl;
     if(jawaban =='3'){
       cout<<"Kalo salah bukan anak ILMU KOMPUTER lu!!."<<endl;
       nilai++;
@@ -78,6 +82,7 @@ void iniKuis(){
   cout<<"5.Kak Samuel "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
+cout<<endl;
     if(jawaban =='4'){
       cout<<"Cihuy benul"<<endl;
       nilai++;
@@ -94,6 +99,7 @@ void iniKuis(){
   cout<<"5.ngedate"<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
+cout<<endl;
     if(jawaban =='2'){
       cout<<"benull, wah anak ilkom banget nihh.."<<endl;
       nilai++;
@@ -110,6 +116,7 @@ void iniKuis(){
   cout<<"5.Masuk Isekai "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
+cout<<endl;
     if(jawaban =='1'){
       cout<<"Bener COOIII,Dengan Lantang meneriakan PASTI CERAHH."<<endl;
       nilai++;
@@ -126,6 +133,7 @@ void iniKuis(){
   cout<<"5.Cinta itu terlalu kompleks, mending coding "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
+cout<<endl;
     if(jawaban =='5'){
       cout<<"Kelazzzzz,Pasti lu nolep kann WKWKWKWWKK."<<endl;
       nilai++;
@@ -141,6 +149,7 @@ void iniKuis(){
   cout<<"5.Menyusun rencana untuk menguasai dunia melalui kode "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
+  cout<<endl;
     if(jawaban =='5'){
       cout<<"wah misi anak ilkom banget,bener sekali bro"<<endl;
       nilai++;
@@ -157,6 +166,7 @@ void iniKuis(){
   cout<<"5.Lariiiiiiiiii "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
+  cout<<endl;
     if(jawaban =='1'){
       cout<<"BAGOSSS Ngerjain Tugas Mepet Deadline kocag."<<endl;
       nilai++;
@@ -168,6 +178,7 @@ void iniKuis(){
 int main (){
   int pilihan;
 do{
+  cout<<endl;
 cout<<" ======menu quiz====="<<endl;
 cout<<"1. mulai quiz"<<endl;
 cout<<"2. selasai"<<endl;
