@@ -163,7 +163,7 @@ void iniKuis(){
       cout<<"Sebenernya Jawabanmu Bener,tapi Salah."<<endl;
     } 
   cout << "Skor Anda " << nilai << "dari 10." << endl;
-
+}
 int main (){
   int pilihan;
 do{
