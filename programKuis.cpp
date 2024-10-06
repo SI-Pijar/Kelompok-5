@@ -1,6 +1,28 @@
 #include <iosteram>
 using namespace std;
 
+int main (){
+  int pilihan;
+do{
+cout<<" ======menu quiz====="<<endl;
+cout<<"1. mulai quiz"<<endl;
+cout<<"2. selasai"<<endl;
+cout<<"pilih opsi 1/2: ";
+cin>>pilihan;
+
+switch (pilihan) {
+  case 1:
+  iniKuis();
+  break;
+  case 2:
+  cout << "Terima kasih telah bermain!" << endl;
+  break;
+  default:
+  cout << "Opsi tidak valid. Silakan coba lagi." << endl;
+  break;
+}
+} while (pilihan != 2);
+  
 void iniKuis(){
   char jawaban;
   int nilai = 0;
@@ -131,23 +153,23 @@ void iniKuis(){
       cout<<"yahhh lu mah bukan anak Ilmu Komputer BGT."<<endl;
     }
   cout<<endl;
-  cout<<"soal 9: "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+  cout<<"soal 9: Apa yang kamu harapkan setelah belajar Ilmu Komputer? "<<endl;
+  cout<<"1. Mampu berbicara dengan komputer dalam bahasa rahasia."<<endl;
+  cout<<"2. Mengembangkan aplikasi untuk mengingatkan orang tentang deadline.."<<endl;
+  cout<<"3. Membuat AI yang bisa menggantikan dosen. "<<endl;
+  cout<<"4. Supaya bisa bilang "Saya programmer" dengan percaya diri."<<endl;
+  cout<<"5.  Menyusun rencana untuk menguasai dunia melalui kode "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' '){
-      cout<<"keren juga lu bisa sampe sini, coba last nya 99% yang bukan manusia gagal."<<endl;
+    if(jawaban =='5 '){
+      cout<<"wah misi anak ilkom banget,bener sekali bro"<<endl;
       nilai++;
     }else{
-      cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
+      cout<<"salah bro misi kita beda jawabanya itu yang menguasai dunia melalui kode"<<endl;
     }
    cout<<endl;
   
-  cout<<"soal 10: "<<endl;
+  cout<<"soal 10:  "<<endl;
   cout<<"1. "<<endl;
   cout<<"2. "<<endl;
   cout<<"3. "<<endl;
@@ -162,3 +184,6 @@ void iniKuis(){
       cout<<"jawaban yang bener itu....., dan karena lu salah lagi malah bikin tim kita stress, jadi udahan aja lah ya."<<endl;
     }
  }
+
+
+}
