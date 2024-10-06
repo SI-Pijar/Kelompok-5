@@ -1,27 +1,6 @@
-#include <iosteram>
+#include <iostream>
 using namespace std;
 
-int main (){
-  int pilihan;
-do{
-cout<<" ======menu quiz====="<<endl;
-cout<<"1. mulai quiz"<<endl;
-cout<<"2. selasai"<<endl;
-cout<<"pilih opsi 1/2: ";
-cin>>pilihan;
-
-switch (pilihan) {
-  case 1:
-  iniKuis();
-  break;
-  case 2:
-  cout << "Terima kasih telah bermain!" << endl;
-  break;
-  default:
-  cout << "Opsi tidak valid. Silakan coba lagi." << endl;
-  break;
-}
-} while (pilihan != 2);
   
 void iniKuis(){
   char jawaban;
@@ -98,7 +77,7 @@ void iniKuis(){
   cout<<"5.Kak Samuel "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' 4'){
+    if(jawaban =='4'){
       cout<<"Cihuy benul"<<endl;
       nilai++;
     }else{
@@ -115,7 +94,7 @@ void iniKuis(){
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
     if(jawaban =='2'){
-      cout<<"benull, wah anak ilkom banget nihh..<<endl;
+      cout<<"benull, wah anak ilkom banget nihh.."<<endl;
       nilai++;
     }else{
       cout<<" bukan jiwa ilkom ni pasti, anak ilkom begadang nya ngoding broo"<<endl;
@@ -146,7 +125,7 @@ void iniKuis(){
   cout<<"5.Cinta itu terlalu kompleks, mending coding "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' 5'){
+    if(jawaban =='5'){
       cout<<"Kelazzzzz,Pasti lu nolep kann WKWKWKWWKK."<<endl;
       nilai++;
     }else{
@@ -157,11 +136,11 @@ void iniKuis(){
   cout<<"1. Mampu berbicara dengan komputer dalam bahasa rahasia."<<endl;
   cout<<"2. Mengembangkan aplikasi untuk mengingatkan orang tentang deadline.."<<endl;
   cout<<"3. Membuat AI yang bisa menggantikan dosen. "<<endl;
-  cout<<"4. Supaya bisa bilang "Saya programmer" dengan percaya diri."<<endl;
+  cout<<"4. Supaya bisa bilang Saya programmer dengan percaya diri."<<endl;
   cout<<"5.  Menyusun rencana untuk menguasai dunia melalui kode "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban =='5 '){
+    if(jawaban =='5'){
       cout<<"wah misi anak ilkom banget,bener sekali bro"<<endl;
       nilai++;
     }else{
@@ -177,14 +156,34 @@ void iniKuis(){
   cout<<"5.Lariiiiiiiiii "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' 1'){
+    if(jawaban =='1'){
       cout<<"BAGOSSS Ngerjain Tugas Mepet Deadline kocag."<<endl;
       nilai++;
     }else{
       cout<<"Sebenernya Jawabanmu Bener,tapi Salah."<<endl;
-    }
- }
+    } 
   cout << "Skor Anda " << nilai << "dari 10." << endl;
 
+int main (){
+  int pilihan;
+do{
+cout<<" ======menu quiz====="<<endl;
+cout<<"1. mulai quiz"<<endl;
+cout<<"2. selasai"<<endl;
+cout<<"pilih opsi 1/2: ";
+cin>>pilihan;
+
+switch (pilihan) {
+  case 1:
+  iniKuis();
+  break;
+  case 2:
+  cout << "Terima kasih telah bermain!" << endl;
+  break;
+  default:
+  cout << "Opsi tidak valid. Silakan coba lagi." << endl;
+  break;
+}
+} while (pilihan != 2);
   return 0;
 }
