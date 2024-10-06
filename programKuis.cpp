@@ -13,11 +13,11 @@ void iniKuis(){
   cout<<"5.Universitas Lama Bagi Almet "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;  
-    if(jawaban =='4'){
-      cout<<"Soal pertama EZ wajar bener."<<endl;
+    if(jawaban ==' 5'){
+      cout<<"GG njirr bisa tau."<<endl;
       nilai++;
     }else{
-      cout<<"Jiahahahaha jawaban lu salah der, yang bener tu 4 kocag "<<endl;
+      cout<<"WKWKWKWKWKWK jawaban lu salah, yang bener tu universitas lama bagi almet kocag "<<endl;
     }
   cout<<endl;
     
@@ -53,34 +53,34 @@ void iniKuis(){
     }
   cout<<endl;
   
-  cout<<"soal 4: "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+  cout<<"soal 4: Siapa dosen kesukaan Mahasiswa Jurusan ILMU KOMPUTER ? "<<endl;
+  cout<<"1.Bapak Yhoga "<<endl;
+  cout<<"2.Bapak Ridho "<<endl;
+  cout<<"3.Bapak Dwi Sakheti:) "<<endl;
+  cout<<"4.Bapak Feby Eka "<<endl;
+  cout<<"5.Ma'am Ari Nurweni "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' '){
-      cout<<"Jangan seneng dulu, tim kita salah aja malah nuruin level soal, liat aja soal berikutnya."<<endl;
+    if(jawaban ==' 3'){
+      cout<<"Kalo salah bukan anak ILMU KOMPUTER lu!!."<<endl;
       nilai++;
     }else{
-      cout<<"Dahlah bingung mau ngomong apa, jawaban yang bener itu....."<<endl;
+      cout<<"Apasih, gitu aja salah, Yang bener itu Bapak Dwi Sakheti."<<endl;
     }
   cout<<endl;
-   cout<<"soal 5: "<<endl;
-  cout<<"1. "<<endl;
-  cout<<"2. "<<endl;
-  cout<<"3. "<<endl;
-  cout<<"4. "<<endl;
-  cout<<"5. "<<endl;
+   cout<<"soal 5: Siapa KAPRODI Sistem Informasi "<<endl;
+  cout<<"1.Bapak Dwi Shaketi "<<endl;
+  cout<<"2.Bapak Mulyono "<<endl;
+  cout<<"3.Umi eka "<<endl;
+  cout<<"4.Bapak Bambang "<<endl;
+  cout<<"5.Kak Samuel "<<endl;
   cout<<"pilih jawaban (1/2/3/4/5): ";
   cin>>jawaban;
-    if(jawaban ==' '){
-      cout<<"benul"<<endl;
+    if(jawaban ==' 4'){
+      cout<<"Cihuy benul"<<endl;
       nilai++;
     }else{
-      cout<<"............., jawaban yang bener itu....."<<endl;
+      cout<<" Masa gatau, Yang Bener tu Bapak Bambang BOS..."<<endl;
     }
   cout<<endl;
   cout<<"soal 6: "<<endl;
